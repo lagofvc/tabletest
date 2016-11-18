@@ -32,6 +32,10 @@ import {
         <datatable-column name="Age" width="80">
         </datatable-column>
       </datatable>
+      <br/>
+      <h3><strong>Thanx for checking it out!!</strong>
+      <br/><strong>-lago</strong></h3>
+      <h1>:)</h1>
     </div>
   `
 })

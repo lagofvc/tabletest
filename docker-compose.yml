@@ -1,0 +1,9 @@
+tabletest:
+  build: .
+  ports:
+    - '4200:4200'
+    - '49152:49152'
+  volumes:
+    - .:/home/app/tabletest
+    - /home/app/tabletest/node_modules
+    - /home/app/tabletest/typings
