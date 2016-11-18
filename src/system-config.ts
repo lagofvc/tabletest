@@ -9,10 +9,21 @@
  **********************************************************************************************/
 /** Map relative paths to URLs. */
 const map: any = {
+  'angular2-data-table': 'vendor/angular2-data-table',
 };
 
 /** User packages configuration. */
 const packages: any = {
+  '@angular/core' : {main: 'bundles/core.umd.min.js', format: 'cjs'},
+  '@angular/common' : {main: 'bundles/common.umd.min.js', format: 'cjs'},
+  '@angular/compiler' : {main: 'bundles/compiler.umd.min.js', format: 'cjs'},
+  '@angular/http' : {main: 'bundles/http.umd.min.js', format: 'cjs'},
+  '@angular/forms' : {main: 'bundles/forms.umd.min.js', format: 'cjs'},
+  '@angular/router' : {main: 'bundles/router.umd.min.js', format: 'cjs'},
+  '@angular/platform-browser' : {main: 'bundles/platform-browser.umd.min.js', format: 'cjs'},
+  '@angular/platform-browser-dynamic': {main: 'bundles/platform-browser-dynamic.umd.min.js', format: 'cjs'},
+
+  'angular2-data-table': { main: 'release/index.js', defaultExtension: 'js' },
 };
 
 ////////////////////////////////////////////////////////////////////////////////////////////////
