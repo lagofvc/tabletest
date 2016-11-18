@@ -1,14 +1,9 @@
 import { Component } from '@angular/core';
-import {
-  TableOptions,
-  ColumnMode,
-  SelectionType
-} from 'angular2-data-table';
+import { TableOptions, ColumnMode } from 'angular2-data-table';
 
 @Component({
   moduleId: module.id,
   selector: 'app-root',
-  templateUrl: 'app.component.html',
   styleUrls: ['app.component.css'],
   template: `
     <div>
@@ -40,10 +35,7 @@ import {
   `
 })
 export class AppComponent {
-  title = 'app works!';
-
   rows = [];
-  expanded = {};
   timeout: any;
 
   options = new TableOptions({

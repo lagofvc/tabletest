@@ -1,4 +1,4 @@
-import { NgModule, enableProdMode, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
+import { NgModule } from '@angular/core';
 import { BrowserModule  } from '@angular/platform-browser';
 import { AppComponent } from './';
 
@@ -10,9 +10,6 @@ import { Angular2DataTableModule } from 'angular2-data-table';
   declarations: [
     AppComponent
   ],
-  providers: [
-
-  ],
   imports:      [
     Angular2DataTableModule,
     BrowserModule,
@@ -20,10 +17,6 @@ import { Angular2DataTableModule } from 'angular2-data-table';
   ],
   bootstrap: [
     AppComponent
-  ],
-  schemas : [
-    CUSTOM_ELEMENTS_SCHEMA
   ]
 })
-export class AppModule {
-}
+export class AppModule {}
