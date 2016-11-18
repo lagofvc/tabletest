@@ -18,13 +18,3 @@ RUN chown -R app:app $HOME/*
 USER app
 
 CMD ["npm", "start", "--host=0.0.0.0"]
-
-#STEP 1: build the image from this directory
-#`docker build -t uma-dev .`
-#
-# the above uses this Dockerfile to build an image (-t) for tag as uma-dev
-
-#STEP 2: create and run a container using the image created in STEP 1
-#`docker-compose up`
-#
-# the above uses docker-compose file (see: ./docker-compose.yml) file to create and run a container
